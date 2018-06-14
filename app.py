@@ -14,5 +14,6 @@ app.config.update(
 )
 
 app.run(debug=True,
-        port=5000)
+        port=5000,
+        threaded=True)
 # threaded=True)
